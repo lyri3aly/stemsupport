@@ -1,5 +1,5 @@
 .hero {
-    height: 600vh;
+    height: 1000vh;
     background: var(--cream-background);
 }
 
@@ -16,39 +16,34 @@
 .watering-can {
     position: absolute;
 
-    width: 210px;
+    width: 20%;
     height: auto;
 
-    left: 5%;
-    bottom: 250px;
+    left: 10%;
+    bottom: 42%;
 
     transform: rotate(0deg);
 }
 
-.water {
+.water-drop {
     position: absolute;
 
-    left: 47.7%;
-    bottom: 229px;
+    width: 1.6%;
+    height: auto;
 
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    left: 50%;
+    bottom: 60%;
 
     opacity: 0;
 }
 
-.water span {
-    width: 8px;
-    height: 20px;
-
-    background: #96CAFF;
-    border-radius: 50%;
-}
-
 .main-flower {
+    position: absolute;
+
     width: auto;
-    height: 220px;
+    height: 37%;
+
+    left: 46%;
 
     transform: scale(0);
     transform-origin: 37% 100%;
