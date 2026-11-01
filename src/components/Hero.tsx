@@ -76,7 +76,7 @@ function Hero() {
                 <img
                     ref={wateringCanRef}
                     className="watering-can"
-                    src="/hero-assets/watering-can.png"
+                    src="${import.meta.env.BASE_URL}hero-assets/watering-can.png"
                     alt="Watering Can"
                 />
 
@@ -93,7 +93,7 @@ function Hero() {
                             waterDropRefs.current[dropIndex] = element
                         }}
                         className="water-drop"
-                        src="/hero-assets/water-drop.png"
+                        src="${import.meta.env.BASE_URL}hero-assets/water-drop.png"
                         alt=""
                         aria-hidden="true"
                     />
@@ -102,7 +102,7 @@ function Hero() {
                 <img
                     ref={flowerRef}
                     className="main-flower"
-                    src="/hero-assets/main-flower.png"
+                    src="${import.meta.env.BASE_URL}hero-assets/main-flower.png"
                     alt="Main Flower"
                 />
                 
